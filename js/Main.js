@@ -1,4 +1,4 @@
-var SideScroller = SideScroller ||{}; 
+var SideScroller = SideScroller || {};
 
 SideScroller.game = new Phaser.Game(746, 420, Phaser.AUTO, '');
 
@@ -15,4 +15,3 @@ SideScroller.game.state.add('Game2', SideScroller.Game2);
 SideScroller.game.state.add('gameOver', SideScroller.gameOver);
 
 SideScroller.game.state.start('Boot');
-

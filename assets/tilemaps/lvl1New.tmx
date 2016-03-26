@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="6" tilewidth="70" tileheight="70" nextobjectid="1">
+ <tileset firstgid="1" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2" tilecount="143">
+  <image source="../images/tiles_spritesheet.png" width="790" height="934"/>
+ </tileset>
+ <tileset firstgid="144" name="space" tilewidth="70" tileheight="70" spacing="2" tilecount="170">
+  <image source="../images/space.png" width="1280" height="720"/>
+ </tileset>
+ <tileset firstgid="314" name="newSpriteSheet" tilewidth="70" tileheight="70" spacing="1" margin="1" tilecount="252">
+  <image source="../../../randomAssets/freetileset/png/Tiles/newSpriteSheet.png" width="1286" height="1012"/>
+ </tileset>
+ <tileset firstgid="566" name="spriteSheet" tilewidth="70" tileheight="70" spacing="1" margin="1" tilecount="75">
+  <image source="../../../randomAssets/freetileset/png/Tiles/spriteSheet.png" width="1821" height="231"/>
+ </tileset>
+ <layer name="backgroundLayer" width="50" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="blockedLayer" width="50" height="6">
+  <data encoding="csv">
+132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,132,132,132,132,132,132,132,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,132,132,132,132,132,132,132,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+132,0,0,0,0,0,0,0,0,132,0,0,0,132,132,132,132,132,132,132,132,132,132,132,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+132,0,0,0,0,132,0,0,132,132,0,0,0,0,0,0,0,132,132,132,132,132,132,132,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="Object Layer 1" visible="0"/>
+</map>
